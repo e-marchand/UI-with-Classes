@@ -18,6 +18,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     
     steps:
+    - name: pwd
+      run: pwd
     - name: Build
       uses: 4d/build4d-action@main
       with:

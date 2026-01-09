@@ -22,7 +22,4 @@ jobs:
       uses: 4d/build4d-action@main
       with:
         project: 'UI with Classes/Project/UI with Classes.4DProject'
-        product-line: vcs
-        version: vcs
-        build: official
-        token: ${{ secrets.DLTK }}
+
